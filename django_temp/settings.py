@@ -150,5 +150,5 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 #password associated with above email-id
-EMAIL_HOST_USER = 'marchspy@gmail.com'
-EMAIL_HOST_PASSWORD = 'shxscdswzscpmilw'#password associated with above email-id
+EMAIL_HOST_USER = 'youremail'
+EMAIL_HOST_PASSWORD = 'password'#password associated with above email-id
