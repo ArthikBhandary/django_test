@@ -15,6 +15,7 @@ Install the requirements
 
 Go to settings.py and update the last two line/variables. (EMAIL_HOST_USER and EMAIL_HOST_PASSWORD)
 >EMAIL_HOST_USER = "example@gmail.com"
+>
 >EMAIL_HOST_PASSWORD = "password"
 
 ## Run it on the local server
