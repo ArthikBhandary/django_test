@@ -1,5 +1,5 @@
 <html>
-<h1> Your Profile </h1>
+<h1> {{ user.username|capfirst }}'s Profile </h1>
 <form method="post">
     {%  csrf_token %}
     {% for field in form %}

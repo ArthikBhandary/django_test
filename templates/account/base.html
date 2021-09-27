@@ -8,17 +8,6 @@
 </head>
 <body>
 {% block body %}
-
-    {% if messages %}
-        <div>
-            <strong>Messages:</strong>
-            <ul>
-                {% for message in messages %}
-                    <li>{{ message }}</li>
-                {% endfor %}
-            </ul>
-        </div>
-    {% endif %}
     {% block content %}
     {% endblock %}
 {% endblock %}
@@ -34,5 +23,13 @@
         border-right: 2px solid black !important;
         border-bottom: 2px solid black !important;
     }
+    .inline-icon {
+    vertical-align: bottom;
+    font-size: 18px !important;
+    }
+    .input-field .prefix.active {
+        color:orangered;
+    }
+
 </style>
 </html>
